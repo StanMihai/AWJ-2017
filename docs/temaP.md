@@ -32,14 +32,14 @@ Crearea unei aplicatii pentru a permite profesorilor sa urmareasca prezenta stud
  - vizualizare data despre utilizator 
  - vizualizare prezente
 
-#Modul 2 (Optional) - 5 puncte 
+# Modul 2 (Optional) - 5 puncte 
 
 **Creare securitate pentru rutare - 2.5puncte** 
 
 **Creare login folosind serviciu extern - 2.5 puncte** :
  - se pot folosii Facebook/Google/Twitter/GitHub.
 
-#Modul 3 (Bonus)
+# Modul 3 (Bonus)
 
 **Identificare Locatie** :
  - prezenta se poate face doar daca locatia utilizatorului este identica cu locatia cursului/laboratorului. 
