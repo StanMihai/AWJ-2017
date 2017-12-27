@@ -15,3 +15,4 @@
 - **[Tema Proiect](docs/temaP.md)**
 - **[Exemplu de Proiect](docs/exP.md)**
 - **[Set up](docs/install.md)**
+- **[Tutorial Firebase](docs/firebase.md)**
