@@ -2,11 +2,11 @@
     <h1 align="center">Install Node, Angular CLI</h1>
 </p>
 
-#Node 
+##Node 
 
 [NodeJS](https://nodejs.org/en/download/) - Download and install.
 
-#Angular CLI
+##Angular CLI
 
 Open a terminal window (you can write node in window search and open NodeJs Command Prompt).
 
