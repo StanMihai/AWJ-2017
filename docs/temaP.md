@@ -40,6 +40,8 @@ To complete this module you do not need any kind of backend.
 
 ### Environments
 
+When the application is used for the first time "users" array is empty. 
+
 environment.ts : 
 
 ```bash
