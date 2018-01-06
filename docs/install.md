@@ -20,7 +20,7 @@ npm install -g @angular/cli
 
 ### Start development
 
-Navigate to the desired location for the app using the command terminal.
+Navigate to the desired location for the application using the command terminal.
 
 ```bash
 ng new awj-app
