@@ -4,7 +4,7 @@
     </h1>
 </p>    
 
-Angular is a framework for building client applications in HTML, CSS, and either JavaScript or TypeScript (that can be transpiled to JavaScript).
+Angular is a framework used for building client applications in HTML, CSS, and either JavaScript or TypeScript (which can be transpiled to JavaScript).
     
 > `TypeScript` is a strongly-typed superset of JavaScript. It encourages a more declarative style of programming and also any valid JavaScript code is valid TypeScript code. 
 
@@ -18,14 +18,14 @@ Angular is a framework for building client applications in HTML, CSS, and either
 
 - src - the actual source code of our Angular application.
 
-> Mainly you will work in `src` folder
+> Mainly you will work in `src` folder.
 
 ## Second Level - src folder
 
-- angular-cli.json - a configuration file for Angular CLI. We use this file to import third-party stylesheets or define additional environments (eg testing environment) for our application.
-- package.json - It contains metadata about our project, such as its name, version as well as the list of its dependencies.
-- assets - the folder in which you can add files, for example images, which you will use in your project but are not a dependency or an angular file.
-- app - the angular code for the application.
+- angular-cli.json - a configuration file for Angular CLI. We use this file to import third-party stylesheets or define additional environments (eg: testing environment) for our application;
+- package.json - contains metadata about our project, such as its name, version as well as the list of its dependencies;
+- assets - the folder in which you can add files, for example images, which you will use in your project but are not a dependency or an angular file;
+- app - the angular code for the application;
 - environments - you can store local data in both .ts files, which can be accessed anywhere in your application if you import it.
 
 # Angular Arhitecture:
@@ -34,7 +34,7 @@ Angular is a framework for building client applications in HTML, CSS, and either
 
 Every Angular application has at least one module, RootModule.
 
-In this file we import all the angular structures (components, pipes, services, etc.) and declare them inside the module.
+In this file, we import all the angular structures (components, pipes, services, etc.) and declare them inside the module.
 
 ```bash
 @NgModule({ // decorator function used to define metadata for the module
@@ -85,11 +85,11 @@ export class ComponentNameComponent implements OnInit { // OnInit is an interfac
 
 ### Instantiate
 
-You need to write the value of the component selector between "<></>" in the the template file of angular structure in which you want to have that instance.
+You need to write the value of the component selector between "<></>" in the template file of the angular structure in which you want to have that instance.
 
 Example:
 
-You can write the code written below in the "app.component.html".
+You can write the code below in the "app.component.html".
 
 ```bash
 <app-component-name></app-component-name>
@@ -130,11 +130,11 @@ component-name.component.html :
 <p>{{ title }}</p> <!-- will display test -->
 ```
 
-> This code is equivalent to the one written above : "<p [innerHtml]="title"></p>". The "{{}}" are a shorthand for the actual property binding syntax we have in Angular.
+> This code is equivalent to the one written above: "<p [innerHtml]="title"></p>". The "{{}}" are a shorthand for the actual property binding syntax we have in Angular.
 
 #### Event Binding
 
-If there is an action in the .html file, it will produce a rezult in the .ts file.
+If there is an action in the .html file, it will produce a result in the .ts file.
 
 component-name.component.ts : 
 
@@ -169,7 +169,7 @@ component-name.component.html :
 
 ### Two Way Binding
 
-When there is a change, either in .ts or .html file, the other one will be affected.
+When there is a change, either in the .ts or the .html file, the other one will be affected.
 
 > Remember to import into your module FormsModule if you want to use `ngModel`.
 
@@ -234,7 +234,7 @@ component-name.component.html :
 <p *ngIf="test" >{{ test }}</p> <!-- the value of "title" will appear there -->
 ```
 
-> More information [here](https://angular.io/api/common/NgIf)
+> More information [here](https://angular.io/api/common/NgIf).
 
 ## *ngFor
 
