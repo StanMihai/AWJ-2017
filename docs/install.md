@@ -16,7 +16,7 @@ Open a terminal window (you can write node in window search and open NodeJs Comm
 npm install -g @angular/cli
 ```
 
-> The command above installs Angular CLI on your device (-g is global install flag) using npm (Node Package Manager)
+> The command above installs Angular CLI on your device (-g is a global install flag) using npm (Node Package Manager)
 
 ### Start development
 
