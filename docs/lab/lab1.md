@@ -93,7 +93,7 @@ console.log(user.surname[0]); // "s"
 
 ## JSON
 
-> Yoo can transform an object into a JSON using `JSON.stringify(object)`
+> You can transform an object into a JSON using `JSON.stringify(object)`
 
 Example: 
 
