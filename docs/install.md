@@ -36,3 +36,7 @@ ng serve --open
 > The `ng serve` command launches the server, watches your files, and rebuilds the app as you make changes to those files. Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/.
 
 > A complete list of commands can be found in `awj-app` folder in README.md file.  
+
+## Visual Studio Code
+
+I recommmend this text editor, you can download it from [here](https://code.visualstudio.com/).
