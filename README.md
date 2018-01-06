@@ -12,6 +12,8 @@
 
 ## Project
 
+### Deadline - 1 day before the exam
+
 - **[Requirements](docs/temaP.md)**
 - **[Angular Example App](docs/exP.md)**
 - **[Set up](docs/install.md)**
