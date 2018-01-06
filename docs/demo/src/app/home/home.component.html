@@ -1,0 +1,11 @@
+<form #sendForm="ngForm" (submit)="_sendMessage(sendForm)">
+  <input type="text" name="mesaj" ngModel>
+  <input type="submit">
+</form>
+
+
+<ul>
+  <li *ngFor="let msg of _messages">
+      {{ msg.displayName }}: {{ msg.message }}
+  </li>
+</ul>
