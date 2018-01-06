@@ -8,9 +8,9 @@ Create an aplication to be used both by teachers and students for attendance che
     
 # Requirements:
     
- - You must use either Angular (Not AngularJS) or ReactJS. 
- - There are no restrictions for the backend.
- - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend
+ - You must use either Angular (Not AngularJS) or ReactJS;
+ - There are no restrictions for the backend;
+ - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend;
    
 ## Module 1 (Mandatory) - 15 points
 
@@ -25,7 +25,7 @@ To complete this module you do not need any kind of backend.
 **Set up Registration Page - 5 points** :
 - create a component;
 - create HTML specific for this kind of page (inputs, buttons);
-- for a new user you need to add: username, password, name, surname, email, id (Grupa + serie, example: 322AA) 
+- for a new user you need to add: username, password, name, surname, email, id (Grupa + serie, example: 322AA); 
 - for the registration to be succesfull, you must add the new user in the value stored in "Users" in environments.ts file;
     
 **Set up Attendance page - 5 points** :
