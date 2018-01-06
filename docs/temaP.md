@@ -92,7 +92,37 @@ export const environment = {
                         ],
                         "id": ["322AA"]                        
                     }
-  ]
+  ],
+  courses: [
+                    {
+                        "name": "AWJ",
+                        "dates": [
+                                    {
+                                        "day": "Monday",
+                                        "hour": 1300
+                                    },
+                                    {
+                                        "day": "Friday",
+                                        "hour": 0800
+                                    }
+                        ],
+                        "id": ["322AB", "322AC"]                        
+                    }, 
+                    {
+                        "name": "BD",
+                        "dates": [
+                                    {
+                                        "day": "Monday",
+                                        "hour": 1100
+                                    },
+                                    {
+                                        "day": "Friday",
+                                        "hour": 1000
+                                    }
+                        ],
+                        "id": ["322AA"]                        
+                    }
+  ] 
 };
 ```
     
