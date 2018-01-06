@@ -23,7 +23,7 @@
 
 # JavaScript 
 
-> Remember to write "use strict" at the top of .js file. The "use strict" directive switches the engine to the “modern” mode, changing the behavior of some built-in features.
+> Remember to write "use strict" at the top of .js file. The "use strict" directive switches the engine to the "modern" mode, changing the behavior of some built-in features.
 
 > Remember to add <script src="/path/to/script.js"></script> after the HTML body tag.
 
@@ -31,7 +31,7 @@
 
 * var - it can have function scope or global scope.
 * let - has block scope.
-* const -  has block scope, value cannot change.
+* const - has block scope, value cannot change.
 
 Example : 
 
@@ -61,9 +61,9 @@ console.log(y); // ReferenceError: y is not defined
 * undefined - unassigned values;
 * object - complex data structures;
 
-> You can use the function "typeof (x)" to find the data type;
+> You can use the function "typeof (x)" to find the data type.
 
-> Type conversion: "String()", "Number()", "Boolean()";
+> Type conversion: "String()", "Number()", "Boolean()".
 
 Example:
 
@@ -93,7 +93,7 @@ console.log(user.surname[0]); // "s"
 
 ## JSON
 
-> You can transform an object into a JSON using `JSON.stringify(object)`
+> You can transform an object into a JSON using `JSON.stringify(object)`.
 
 Example: 
 
@@ -136,7 +136,7 @@ console.log(nul == undefined) //true
 
 ## Functions
 
-> Remeber to use camelCase
+> Remeber to use camelCase.
 
 Example:
 
