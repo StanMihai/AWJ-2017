@@ -37,6 +37,64 @@ To complete this module you do not need any kind of backend.
 **Set up User Profile Page - 2 points** : 
 - create a component;
 - the user must be able to see his personal information and his current attendance;
+
+### Environments
+
+environment.ts : 
+
+```bash
+export const environment = {
+  production: false,
+  users: [
+            {
+                "username": "test",
+                "password": "test",
+                "name": "Mihai",
+                "surname": "Stan",
+                "email": "stan.mihaioctavian@gmail.com",
+                "id": "322AA"
+            },
+            {
+                "username": "test1",
+                "password": "test1",
+                "name": "Ion",
+                "surname": "Vasile",
+                "email": "ion.vasile@gmail.com",
+                "id": "322AB"
+            }  
+  ],
+  laboratories: [
+                    {
+                        "name": "AWJ",
+                        "dates": [
+                                    {
+                                        "day": "Monday",
+                                        "hour": 1300
+                                    },
+                                    {
+                                        "day": "Friday",
+                                        "hour": 0800
+                                    }
+                        ],
+                        "id": ["322AB", "322AC"]                        
+                    }, 
+                    {
+                        "name": "BD",
+                        "dates": [
+                                    {
+                                        "day": "Monday",
+                                        "hour": 1100
+                                    },
+                                    {
+                                        "day": "Friday",
+                                        "hour": 1000
+                                    }
+                        ],
+                        "id": ["322AA"]                        
+                    }
+  ]
+};
+```
     
 ## Module 2 (Optional) - 5 points 
     
