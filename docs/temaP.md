@@ -1,18 +1,18 @@
 <p align="center">
-        <h1 align="center">
-            Project Requirements
-        </h1>
-    </p>    
+    <h1 align="center">
+        Project Requirements
+    </h1>
+</p>    
+
+Create an aplication to be used both by teachers and students for attendance checkeing.
     
-    Create an aplication to be used both by teachers and students for attendance checkeing.
+# Requirements:
     
-    ## Requirements:
-    
-    - You must use either Angular (Not AngularJS) or ReactJS. 
-    - There are no restrictions for the backend.
-    - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend
-    
-    # Module 1 (Mandatory) - 15 puncte
+ - You must use either Angular (Not AngularJS) or ReactJS. 
+ - There are no restrictions for the backend.
+ - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend
+   
+## Module 1 (Mandatory) - 15 puncte
 
     To complete this module you do not need any kind of backend.
     
@@ -38,7 +38,7 @@
      - create a component;
      - the user must be able to see his personal information and his current attendance;
     
-    # Module 2 (Optional) - 5 puncte 
+## Module 2 (Optional) - 5 puncte 
     
     **Create routing - 0.5 puncte** 
     
@@ -46,7 +46,7 @@
      - instead of using localstorage from enviroments.ts, we can use Firebase;
      - create services (Login, Registration, Attendance, User);     
     
-    # Modul 3 (Bonus)
+## Modul 3 (Bonus)
     
     **Location** :
      - The user must be in the vicinity of the Faculty of Automatic Control and Computers, University POLITEHNICA of Bucharest;
