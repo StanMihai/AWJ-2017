@@ -1,46 +1,52 @@
 <p align="center">
-    <h1 align="center">
-        Laborator AWJ 2017-2017
-    </h1>
-</p>
+        <h1 align="center">
+            Project Requirements
+        </h1>
+    </p>    
+    
+    Create an aplication to be used both by teachers and students for attendance checkeing.
+    
+    ## Requirements:
+    
+    - You must use either Angular (Not AngularJS) or ReactJS. 
+    - There are no restrictions for the backend.
+    - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend
+    
+    # Module 1 (Mandatory) - 15 puncte
 
-## Enunt
-
-Crearea unei aplicatii pentru a permite profesorilor sa urmareasca prezenta studentilor la cursuri si laboratorare.
-
-## Cerinte:
-
-- Aplicatia va trebuii scrisa fie in Angular(atentie NU AngularJS) fie in React. 
-- Pentru comunicarea cu baza de date nu exista restrictii.
-- Pentru baza de date si comunicarea cu baza de date va recomand sa utilizati Firebase ([Tutorial Firebase](docs/firebase.md)) 
-
-# Modul 1 (Obligatoriu) - 15 puncte
-
-**Creare pagina de Login - 3 puncte** :
- - se va creea o componenta ce va contine minim un buton, respectiv legatura cu serviciul de logare.
- - logarea se face folosind Email + Parola
-
-**Creare pagina de Registration - 5 puncte** :
- - se va creea o componenta ce va contine formular, respectiv legatura cu serviciul de logare. 
-
-**Creare pagina de prezenta - 5 puncte** :
- - pagina trebuie sa contina 2 coloane : cursuri si laboratoare.
- - trebuie sa fie vizibile doar cursurile/laboratoarele ce se desfasoara in acel moment.
- - prezenta se poate face o singura data pe saptamana la curs/laborator. 
- 
-**Creare pagina Utilizator - 2 puncte** : 
- - vizualizare data despre utilizator 
- - vizualizare prezente
-
-# Modul 2 (Optional) - 5 puncte 
-
-**Creare securitate pentru rutare - 2.5 puncte** 
-
-**Creare login folosind serviciu extern - 2.5 puncte** :
- - se pot folosii Facebook/Google/Twitter/GitHub.
-
-# Modul 3 (Bonus)
-
-**Identificare Locatie** :
- - prezenta se poate face doar daca locatia utilizatorului este identica cu locatia cursului/laboratorului. 
-
+    To complete this module you do not need any kind of backend.
+    
+    **Set up Login Page - 3 puncte** :
+     - create a component;
+     - create HTML specific for this kind of page (inputs, buttons);
+     - for the login you need to use username and password;
+     - for the login to be succesfull, you must compare the username and password with the values stored in "Users" in environments.ts file;  
+    
+    **Set up Registration Page - 5 puncte** :
+    - create a component;
+    - create HTML specific for this kind of page (inputs, buttons);
+    - for the new user you need to add: username, password, name, surname, email, id (Grupa + serie, example: 322AA) 
+    - for the registration to be succesfull, you must add the new user in the value stored in "Users" in environments.ts file;
+    
+    **Set up Attendance page - 5 puncte** :
+     - create a component;
+     - the page must contain 2 columns, one for active Courses and one for active Laboratories;
+     - the user can see only the Courses and the Laboratories that are underway at that moment specific for their ID;
+     - in order for the attendance to be successfully committed, you must add the name of the Course/Laboratory to the property "Attendance" for the current user located in "Users" in environments.ts file;
+     
+    **Set up User Profile Page - 2 puncte** : 
+     - create a component;
+     - the user must be able to see his personal information and his current attendance;
+    
+    # Module 2 (Optional) - 5 puncte 
+    
+    **Create routing - 0.5 puncte** 
+    
+    **Connect to Firebase - 4.5 puncte** :
+     - instead of using localstorage from enviroments.ts, we can use Firebase;
+     - create services (Login, Registration, Attendance, User);     
+    
+    # Modul 3 (Bonus)
+    
+    **Location** :
+     - The user must be in the vicinity of the Faculty of Automatic Control and Computers, University POLITEHNICA of Bucharest;
