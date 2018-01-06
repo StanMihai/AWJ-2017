@@ -15,6 +15,6 @@
 ### Deadline - 1 day before the exam
 
 - **[Requirements](docs/temaP.md)**
-- **[Angular Example App](docs/exP.md)**
+- **[Angular Example Application](docs/example)**
 - **[Set up](docs/install.md)**
 - **[Firebase Tutorial](docs/firebase.md)** - available 10.01.2018
