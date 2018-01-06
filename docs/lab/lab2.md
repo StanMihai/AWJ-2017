@@ -291,6 +291,8 @@ The Angular way to write display-value transformations that you can declare in y
 
 > You can create your own pipes or you can use the ones that Angular provides (example: currency).
 
+component-name.component.ts :
+
 ```bash
 import { Component, OnInit } from '@angular/core';
 
