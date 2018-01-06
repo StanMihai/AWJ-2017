@@ -202,3 +202,134 @@ component-name.component.html :
 <p>{{ title }}</p> <!-- the value of "title" will appear there -->
 ```
 
+## *ngIf 
+
+If the condition is true, the code will render.
+
+component-name.component.ts : 
+
+```bash
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-component-name',
+  templateUrl: './component-name.component.html',
+  styleUrls: ['./component-name.component.css']
+})
+export class ComponentNameComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  public test: boolean = true;
+  
+}
+```
+
+component-name.component.html :
+
+```bash
+<p *ngIf="test" >{{ test }}</p> <!-- the value of "title" will appear there -->
+```
+
+> More information [here](https://angular.io/api/common/NgIf)
+
+## *ngFor
+
+NgFor is a repeater directive — a way to present a list of items. You define a block of HTML that defines how a single item should be displayed. You tell Angular to use that block as a template for rendering each item in the list. 
+
+component-name.component.ts : 
+
+```bash
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-component-name',
+  templateUrl: './component-name.component.html',
+  styleUrls: ['./component-name.component.css']
+})
+export class ComponentNameComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  public products = [
+    {
+        "productId": 1,
+        "productName": "Leaf Rake"       
+    },
+    {
+        "productId": 2,
+        "productName": "Garden Cart"        
+    },
+    {
+        "productId": 5,
+        "productName": "Hammer"
+    }    
+  ];
+  
+}
+```
+
+component-name.component.html :
+
+```bash
+<div *ngFor="let product of products">
+    <p>
+        {{product.productName}}
+    </p>
+</div>
+```
+
+## Pipes
+
+The Angular way to write display-value transformations that you can declare in your HTML.
+
+> You can create your own pipes or you can use the ones that Angular provides (example: currency).
+
+```bash
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-component-name',
+  templateUrl: './component-name.component.html',
+  styleUrls: ['./component-name.component.css']
+})
+export class ComponentNameComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  public products = [
+    {
+        "price": 1,
+        "productName": "Leaf Rake"       
+    },
+    {
+        "price": 2,
+        "productName": "Garden Cart"        
+    },
+    {
+        "price": 5,
+        "productName": "Hammer"
+    }    
+  ];
+  
+}
+```
+
+component-name.component.html :
+
+```bash
+<div *ngFor="let product of products">
+    <p>
+        {{product.price | currency:"USD":true}} <!-- This currency pipes takes 2 arguments -->
+    </p>
+</div>
+```
