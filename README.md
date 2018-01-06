@@ -1,18 +1,18 @@
 <p align="center">
     <h1 align="center">
-        Laborator AWJ 2017-2017
+        AWJ 2017-2018
     </h1>
 </p>
 
-## Laboratoare
+## Laboratories
 
-- **[Laborator 1](docs/lab1.md)** - Introducere HTML, CSS, JavaScript.
-- **[Laborator 2](docs/lab2.md)** - Introducere Angular partea I (Structura, Componente, Functii de baza).
-- **[Laborator 3](docs/lab3.md)** - Introducere Angular partea II (HTTP, Servicii, Rutare).
+- **[Laboratory 1](docs/lab/lab1.md)** - Introduction HTML, CSS, JavaScript.
+- **[Laboratory 2](docs/lab/lab2.md)** - Introduction Angular I (Structure, Components, Basic Functions).
+- **[Laboratory 3](docs/lab/lab3.md)** - Introduction Angular II (HTTP, Services, Routes).
 
-## Proiect
+## Project
 
-- **[Tema Proiect](docs/temaP.md)**
-- **[Exemplu de Proiect](docs/exP.md)**
+- **[Requirements](docs/temaP.md)**
+- **[Angular Example App](docs/exP.md)**
 - **[Set up](docs/install.md)**
-- **[Tutorial Firebase](docs/firebase.md)**
+- **[Firebase Tutorial](docs/firebase.md)**
