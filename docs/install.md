@@ -12,6 +12,8 @@
 
 Open a terminal window (you can write node in window search and open NodeJs Command Prompt).
 
+![Terminal Image 1](images/setUp1.png)
+
 ```bash
 npm install -g @angular/cli
 ```
@@ -21,6 +23,10 @@ npm install -g @angular/cli
 ### Start development
 
 Navigate to the desired location for the application using the command terminal.
+
+Example (I will set up de application on my Desktop)
+
+![Terminal Image 2](images/setUp2.png)
 
 ```bash
 ng new awj-app
