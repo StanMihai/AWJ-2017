@@ -8,8 +8,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-import { AuthService } from 'app/services/auth/auth.service';
-import { ChatService } from 'app/services/chat/chat.service';
+import { AuthService } from './services/auth/auth.service';
+import { ChatService } from './services/chat/chat.service';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { FormsModule } from '@angular/forms';
 
@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: '**', component: LoginComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
 ]
+
 
 @NgModule({
   declarations: [
