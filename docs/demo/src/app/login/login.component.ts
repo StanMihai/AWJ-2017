@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
     this._authService.login().then(success => {
       this._routingModule.navigate(['home']);
     }, err => {
-      console.log("fix ur code bro");
+      console.log("error login");
     });
   }
 
@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
     this._authService.logout().then(success => {
       this._routingModule.navigate(['login']);
     }, err => {
-      console.log("fix ur code bro again");
+      console.log("error logout");
     });
   }
 }
