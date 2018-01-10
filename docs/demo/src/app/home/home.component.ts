@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit {
     this._chatService.sendMessage(newMessage).then(resolve => {
       form.reset();
     }, err => {
-      console.log("fix it again");
+      console.log("error send");
     });
   }
 }
