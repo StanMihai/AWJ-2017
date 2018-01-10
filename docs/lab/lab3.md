@@ -76,6 +76,33 @@ Example (app.component.html):
 ```
 
 
+# Services
+
+Components shouldn't fetch or save data directly and they certainly shouldn't knowingly present fake data. They should focus on presenting data and delegate data access to a service.
+
+Services are a great way to share information among classes that don't know each other.
+
+## Singleton Design Pattern
+
+Angular services are based on singleton design Pattern. As a result, there is only one instance of that service in the application available everywhere (everywhere  meaning in every Angular structure that has a reference to that service). Also, this design pattern allows lazy load initialization.
+
+## Dependency Injection 
+
+Dependency Injection Design Pattern is explained [here](https://angular.io/guide/dependency-injection-pattern).
+
+Angular Dependency Injection implementation is explained [here](https://angular.io/guide/dependency-injection).
+
+## Promises
+
+Explained [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+
+## Observable 
+
+Explained [here](http://reactivex.io/documentation/observable.html)
+
+
+
+
 
 
 
