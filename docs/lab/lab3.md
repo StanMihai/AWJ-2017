@@ -18,12 +18,12 @@ We need to decide which component is going to be visible when the user is on a s
 
 app.module.ts :
 
-```bash
+```ts
 import { RouterModule, Routes } from '@angular/router';
 ```
 We import RouterModule to be added to module imports and Routes for routing configuration.
 
-```bash
+```ts
 const routes: Routes = [ // "routes" implements the imported type alias (similar to an interface) Routes.
   { path: 'home', component: HomeComponent }, // we attach the HomeComponent the "/home" path, for this example: http://localhost:4200/home.
   { path: '**', component: HomeComponent }, // this is called "Wild Card", when the user tries to access an undefined route, for example: http://localhost:4200/login the app will redirect him to HomeComponent. 
@@ -31,7 +31,7 @@ const routes: Routes = [ // "routes" implements the imported type alias (similar
 ]
 ```
 
-```bash
+```ts
 // As any other module from Angular, we need to import it into the RootModule
 imports: [
   RouterModule.forRoot(
@@ -46,7 +46,7 @@ imports: [
 
 HTML:
 
-```bash
+```html
 <a [routerLink]="['/home']">Home</a>
 ```
 
@@ -55,19 +55,21 @@ Ts:
 
 We need to import "Router" into the component and define a reference to it in the constructor:
 
-```bash
+```ts
 constructor(private _routingModule: Router) { } // it can be public or protected too
 ```
 
 In order to move to a specific path:
 
-```bash
+```ts
 this._routingModule.navigate(['home']);
 ```
 
 ## Placing the views
 
 We need to tell Angular where he should render the component view tied to the specified path.
+
+Example (app.component.html):
 
 ```html
 <router-outlet></router-outlet>
@@ -80,4 +82,4 @@ We need to tell Angular where he should render the component view tied to the sp
 
 
 
-sad
+
