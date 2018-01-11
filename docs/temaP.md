@@ -45,7 +45,7 @@ When the application is used for the first time "users" array is empty.
 environment.ts : 
 
 ```bash
-export const environment = {
+export let environment = {
   production: false,
   users: [
             {
