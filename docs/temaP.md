@@ -54,7 +54,8 @@ export let environment = {
                 "name": "Mihai",
                 "surname": "Stan",
                 "email": "stan.mihaioctavian@gmail.com",
-                "id": "322AA"
+                "id": "322AA",
+                "attendance" : ["112"]
             },
             {
                 "username": "test1",
@@ -62,7 +63,8 @@ export let environment = {
                 "name": "Ion",
                 "surname": "Vasile",
                 "email": "ion.vasile@gmail.com",
-                "id": "322AB"
+                "id": "322AB",
+                "attendance" : []
             }  
   ],
   laboratories: [
@@ -78,7 +80,8 @@ export let environment = {
                                         "hour": 0800
                                     }
                         ],
-                        "id": ["322AB", "322AC"]                        
+                        "groups": ["322AB", "322AC"],
+                        "id": "111"
                     }, 
                     {
                         "name": "BD",
@@ -92,7 +95,8 @@ export let environment = {
                                         "hour": 1000
                                     }
                         ],
-                        "id": ["322AA"]                        
+                        "groups": ["322AA"],
+                        "id": "112"
                     }
   ],
   courses: [
@@ -108,7 +112,8 @@ export let environment = {
                                         "hour": 0800
                                     }
                         ],
-                        "id": ["322AB", "322AC"]                        
+                        "groups": ["322AB", "322AC"],
+                        "id": "113"
                     }, 
                     {
                         "name": "BD",
@@ -122,7 +127,8 @@ export let environment = {
                                         "hour": 1000
                                     }
                         ],
-                        "id": ["322AA"]                        
+                        "groups": ["322AA"],
+                        "id": "114"
                     }
   ] 
 };
