@@ -17,4 +17,3 @@
 - **[Requirements](docs/temaP.md)**
 - **[Angular Example Application](docs/demo)**
 - **[Set up](docs/install.md)**
-- **[Firebase Tutorial](docs/firebase.md)** - available 11.01.2018
