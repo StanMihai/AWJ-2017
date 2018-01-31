@@ -40,7 +40,9 @@ To complete this module you do not need any kind of backend.
 
 ### Environments
 
-When the application is used for the first time "users" array is empty. 
+When the application is used for the first time "users" array is empty.
+
+This type of storage is volatile, all data is lost after you reset the app. This is not a problem.
 
 environment.ts : 
 
