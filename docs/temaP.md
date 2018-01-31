@@ -77,7 +77,7 @@ export let environment = {
                                     },
                                     {
                                         "day": "Friday",
-                                        "hour": 0800
+                                        "hour": 1800
                                     }
                         ],
                         "groups": ["322AB", "322AC"],
@@ -109,7 +109,7 @@ export let environment = {
                                     },
                                     {
                                         "day": "Friday",
-                                        "hour": 0800
+                                        "hour": 1800
                                     }
                         ],
                         "groups": ["322AB", "322AC"],
