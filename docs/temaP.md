@@ -10,7 +10,7 @@ Create an application to be used both by teachers and students for attendance ch
     
  - You must use either Angular (Not AngularJS) or ReactJS;
  - There are no restrictions for the backend;
- - I recommend useing Firebase ([Tutorial Firebase](docs/firebase.md)) for backend.
+ - I recommend using Firebase ([Tutorial Firebase](docs/firebase.md)) for backend.
    
 ## Module 1 (Mandatory) - 15 points
 
