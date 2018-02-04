@@ -49,6 +49,7 @@ environment.ts :
 ```bash
 export let environment = {
   production: false,
+  actualUser: '',
   users: [
             {
                 "username": "test",
