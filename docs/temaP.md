@@ -32,7 +32,7 @@ To complete this module you do not need any kind of backend.
 - create a component;
 - the page must contain 2 columns, one for active Courses and one for active Laboratories;
 - the user can only see the Courses and the Laboratories that are underway at that moment specific for their ID;
-- in order for the attendance to be successfully committed, you must add the name of the Course/Laboratory to the property "Attendance" for the current user, located in "Users" in environments.ts file.
+- in order for the attendance to be successfully committed, you must add the id of the Course/Laboratory to the property "Attendance" for the current user, located in "Users" in environments.ts file.
      
 **Set up User Profile Page - 2 points** : 
 - create a component;
